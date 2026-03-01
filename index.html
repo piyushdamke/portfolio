@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piyush Damke — UI/UX Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Custom cursor -->
+    <div class="cursor" id="cursor"></div>
+    <div class="cursor-dot" id="cursor-dot"></div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header id="header">
+        <div class="logo">PD<span class="logo-dot">.</span></div>
+        <nav id="navbar">
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="Resume.pdf" target="_blank" class="nav-link">Resume</a>
+            <a href="#contact" class="nav-cta">Hire Me</a>
+        </nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+            <span></span><span></span>
+        </button>
+    </header>
+
+    <!-- Mobile nav overlay -->
+    <div class="mobile-nav" id="mobile-nav">
+        <button class="mobile-close" id="mobile-close">✕</button>
+        <nav>
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#services" class="mobile-link">Services</a>
+            <a href="#about" class="mobile-link">About</a>
+            <a href="resume.pdf" target="_blank" class="mobile-link">Resume</a>
+            <a href="#contact" class="mobile-link">Hire Me</a>
+        </nav>
+    </div>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+        <div class="hero-bg-text">DESIGN</div>
+        <div class="noise-overlay"></div>
+
+        <div class="hero-inner">
+            <div class="hero-left">
+                <div class="tag reveal">UI/UX Designer & Developer</div>
+                <h1 class="hero-name reveal">
+                    <span>Piyush Damke
+                        
+                    </span><br>
+                    <em></em>
+                </h1>
+                <p class="hero-desc reveal">
+                    I design intuitive digital experiences and build clean, 
+                    responsive interfaces that users love — where beauty meets function.
+                </p>
+                <div class="hero-actions reveal">
+                    <a href="#projects" class="btn-primary">View Projects</a>
+                    <a href="resume.pdf" target="_blank" class="btn-ghost">Download Resume ↗</a>
+                </div>
+            </div>
+
+            <div class="hero-right reveal">
+                <div class="hero-card">
+                    <div class="hero-avatar">
+                        <img src="images/piyush.png" alt="Piyush Damke">
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num" data-target="5">0</span><span class="stat-plus">+</span>
+                            <p>Projects</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num" data-target="4">0</span><span class="stat-plus">+</span>
+                            <p>Clients</p>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <span class="stat-num" data-target="1">0</span><span class="stat-plus">+</span>
+                            <p>Years Exp.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-hint">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee-wrap">
+        <div class="marquee-track">
+            <span>UI Design &nbsp;·&nbsp; UX Research &nbsp;·&nbsp; Prototyping &nbsp;·&nbsp; App Design &nbsp;·&nbsp; Web Design &nbsp;·&nbsp; Wireframing &nbsp;·&nbsp;</span>
+            <span>UI Design &nbsp;·&nbsp; UX Research &nbsp;·&nbsp; Prototyping &nbsp;·&nbsp; App Design &nbsp;·&nbsp; Web Design &nbsp;·&nbsp; Wireframing &nbsp;·&nbsp;</span>
+        </div>
+    </div>
+
+    <!-- ===== PROJECTS ===== -->
+    <section id="projects" class="section">
+        <div class="section-header reveal">
+            <p class="section-label">Selected Work</p>
+            <h2 class="section-title">Projects</h2>
+        </div>
+
+        <div class="project-grid">
+            <a href="https://www.behance.net/gallery/244395419/RideFix"
+               target="_blank" class="project-card reveal" data-index="01">
+                <div class="project-card-top">
+                    <span class="project-index">01</span>
+                    <span class="project-arrow">↗</span>
+                </div>
+                <h3 class="project-name">Car & Bike Servicing App</h3>
+                <p class="project-desc">A seamless servicing experience — book, track, and manage vehicle maintenance from your phone.</p>
+                <div class="project-tags">
+                    <span>UX Research</span><span>Prototyping</span><span>Figma</span>
+                </div>
+                <div class="project-cta">View Case Study →</div>
+            </a>
+
+            <a href="https://www.behance.net/gallery/244400475/World-Travel-Application"
+               target="_blank" class="project-card reveal" data-index="02">
+                <div class="project-card-top">
+                    <span class="project-index">02</span>
+                    <span class="project-arrow">↗</span>
+                </div>
+                <h3 class="project-name">World Travel App</h3>
+                <p class="project-desc">Discover, plan, and experience the world — a travel companion designed for modern explorers.</p>
+                <div class="project-tags">
+                    <span>App Design</span><span>Wireframing</span><span>Figma</span>
+                </div>
+                <div class="project-cta">View Case Study →</div>
+            </a>
+
+            <a href="https://www.behance.net/piyushdamke"
+               target="_blank" class="project-card project-card--more reveal" data-index="03">
+                <div class="project-card-top">
+                    <span class="project-index">03</span>
+                    <span class="project-arrow">↗</span>
+                </div>
+                <h3 class="project-name">More on Behance</h3>
+                <p class="project-desc">Explore the full collection of case studies, explorations, and design experiments.</p>
+                <div class="project-tags">
+                    <span>Behance</span><span>Portfolio</span>
+                </div>
+                <div class="project-cta">See All Work →</div>
+            </a>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="section section--dark">
+        <div class="section-header reveal">
+            <p class="section-label light">What I Do</p>
+            <h2 class="section-title light">Services</h2>
+        </div>
+
+        <div class="services-grid">
+            <div class="service-item reveal">
+                <div class="service-num">01</div>
+                <h3>UI / UX Design</h3>
+                <p>End-to-end UX process — research, journey mapping, wireframing, prototyping, and usability testing to craft validated, user-loved products.</p>
+            </div>
+            <div class="service-item reveal">
+                <div class="service-num">02</div>
+                <h3>App Design</h3>
+                <p>Mobile-first interfaces built around clarity and delight. Native-feeling design patterns that make complex tasks feel simple.</p>
+            </div>
+            <div class="service-item reveal">
+                <div class="service-num">03</div>
+                <h3>Web Design</h3>
+                <p>Responsive, visually distinct websites with strong information architecture and a seamless conversion-focused user flow.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section">
+        <div class="about-wrap">
+            <div class="about-left reveal">
+                <p class="section-label">Who I Am</p>
+                <h2 class="section-title">About Me</h2>
+                <p class="about-text">
+                    I'm a passionate UI/UX Designer with a strong foundation in user research, 
+                    journey mapping, wireframing, and prototyping. I focus on creating 
+                    intuitive, user-centered digital experiences that solve real-world problems.
+                </p>
+                <p class="about-text">
+                    With 4+ years of experience and 100+ happy clients, I bridge the gap 
+                    between beautiful aesthetics and meaningful functionality.
+                </p>
+                <a href="resume.pdf" target="_blank" class="btn-ghost">View Resume ↗</a>
+            </div>
+            <div class="about-right reveal">
+                <div class="about-img-wrap">
+                    <img src="images/piyush.png" alt="Piyush Damke">
+                    <div class="about-badge">
+                        <span>Available</span>
+                        <span>for Work</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section section--contact">
+        <div class="contact-wrap">
+            <div class="contact-left reveal">
+                <p class="section-label light">Get In Touch</p>
+                <h2 class="section-title light">Let's Build<br><em>Something Great</em></h2>
+                <p class="contact-sub">Have a project in mind? Drop a message and let's create something unforgettable.</p>
+                <a href="mailto:piyushdamke66@gmail.com" class="contact-email">piyushdamke66@gmail.com</a>
+            </div>
+
+            <form class="contact-form reveal" id="contact-form" action="mailto:piyushdamke66@gmail.com" method="post" enctype="text/plain">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Your Name</label>
+                        <input type="text" name="name" placeholder="e.g. Rahul Sharma" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Your Email</label>
+                        <input type="email" name="email" placeholder="e.g. rahul@mail.com" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                </div>
+                <button type="submit" class="btn-primary btn-submit">Send Message ↗</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-logo">PD<span class="logo-dot">.</span></div>
+            <p class="footer-copy">© 2026 Piyush Damke. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://www.linkedin.com/in/piyush-damke/" class="footer-link">LinkedIn ↗</a>
+                <a href="https://www.behance.net/piyushdamke" target="_blank" class="footer-link">Behance ↗</a>
+                <a href="#" class="footer-link">Instagram ↗</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
